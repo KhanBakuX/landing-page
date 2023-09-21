@@ -111,3 +111,28 @@ body {
   width: 200px;
   margin-bottom: 10px;
 }
+
+.quote-color-container {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote-author {
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+.quote-width-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  width: 1000px;
+}
